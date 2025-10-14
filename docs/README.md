@@ -71,11 +71,11 @@
 `area_triangle(1, 2)` → `2`
 
 **Функция периметра треугольника**
-`perimeter_triangle(a, b, c)` — вычисляет периметр треугольника.  
+`perimeter_triangle(a, b, c)` — вычисляет периметр треугольника.    
 **Формула**
-`P = a + b + c` 
+`P = a + b + c`  
 **Пример**
-`perimeter_triangle(3, 4, 5)` → `12`
+`perimeter_triangle(3, 4, 5)` → `12`  
 
 ---
 
