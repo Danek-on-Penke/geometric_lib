@@ -10,7 +10,6 @@ jobs:
     - name: Run tests
       run: python -m unittest discover -p "*_tests.py" -v
 
-jobs:
   test_on_Windows:
     runs-on: windows-latest
     steps:
