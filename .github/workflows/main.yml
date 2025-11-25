@@ -1,0 +1,19 @@
+name: Unit-tests
+
+on: push
+
+jobs:
+  test_on_Linux:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    - name: Run tests
+      run: python -m unittest discover -p "*_tests.py" -v
+
+jobs:
+  test_on_Windows:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v5
+    - name: Run tests
+      run: python -m unittest discover -p "*_tests.py" -v
